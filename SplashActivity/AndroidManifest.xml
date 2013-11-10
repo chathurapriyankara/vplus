@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.virtusa.vplus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+        <activity
+            android:name="com.virtusa.vplus.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.virtusa.vplus.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.virtusa.vplus.DashboardActivity"
+            android:label="@string/title_dashboard_actionbar"
+            android:theme="@style/SherlockTheme" >
+        </activity>
+
+        <!-- adding search capability -->
+        <activity
+            android:name="com.virtusa.vplus.PreSearchActivity"
+            android:label="@string/title_activity_pre_search" >
+
+            <!-- Enabling Search Dialog -->
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchableActivity" />
+        </activity>
+<!-- Search activity -->
+        <activity
+            android:name="com.virtusa.vplus.PeopleSearchActivity"
+            android:label="@string/title_activity_people_search" >
+        </activity>
+    </application>
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

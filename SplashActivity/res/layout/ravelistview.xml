@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical" 
+    >
+
+    <TextView
+        android:id="@+id/ravetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:text="Medium Text"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/raveexplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ravetitle"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Small Text test"
+        android:textColor="#ffffff" />
+    
+    <TextView
+        android:id="@+id/raveperson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/raveexplanation"
+        android:text="Small Text"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+</RelativeLayout>

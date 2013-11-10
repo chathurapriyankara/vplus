@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VPlus</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_dashboard_actionbar">V+ Dash</string>
+    <string name="hint">Search</string>
+    <string name="search">Search People</string>
+    <string name="search_hint">Search names</string>
+    <string name="flag_description">Avatar</string>
+    <string name="search_settings">Search People Names</string>
+    <string name="title_activity_pre_search">PreSearchActivity</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+    <!-- String array for the navigation drawer items -->
+    <!-- String array for the navigation drawer items -->
+    <string-array name="items">
+        <item>Search</item>
+        <item>V+ Dash</item>
+        <item>Rave</item>
+       <!--  <item>My Task</item>
+        <item>Events</item>
+        <item>vBlog</item>
+        <item>vTube</item>
+        <item>Time zone</item>
+        <item>My Profile</item>
+        <item>Settings</item>--> 
+        <item>Logout</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_second">Second</string>
+    <string name="action_people_search">PeopleSearch</string>
+
+    <!-- Menu items -->
+    <string name="add_task">NewTask</string>
+    <string name="add_rave">NewRave</string>
+    <!-- Buttons -->
+
+    <string name="send_rave_btn">Send Rave</string>
+    <!-- String array and the prompt for the new rave spinner -->
+
+    <string name="category_prompt">Choose a category</string>
+
+    <string-array name="rave_categories">
+        <item>Category one</item>
+        <item>Category two</item>
+        <item>Category three</item>
+        <item>Category four</item>
+        <item>Category five</item>
+        <item>Category six</item>
+    </string-array>
+
+    <string name="title_activity_people_search">PeopleSearchActivity</string>
+<!-- login btn color -->
+</resources>
